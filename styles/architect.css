@@ -57,3 +57,16 @@ nav li a{
     font-size: 1.25rem;
     border: none;
 }
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
